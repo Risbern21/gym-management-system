@@ -1,1 +1,2 @@
-This is a gym managememnt system in c++. 
+Gym management system.
+This is my c++ mini project.
