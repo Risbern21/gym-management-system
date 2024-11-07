@@ -285,6 +285,14 @@ public:
 
 int main()
 {
+	ifstream openf("instructors.txt");
+	if(openf){}
+	else
+	{
+		ofstream wf("instructors.txt");
+		wf.close();
+	}
+	openf.close();
 	int ch;
 	while (1)
 	{
